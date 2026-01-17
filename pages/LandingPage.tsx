@@ -22,8 +22,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onAdminClick }) => {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
           {/* Left: Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center text-black font-bold text-xl shadow-lg shadow-emerald-500/20">N</div>
+          <div className="flex items-center gap-3">
+            <img src="/logo.png" alt="Nyumba AI" className="h-12 w-auto object-contain" />
             <span className="text-xl font-bold text-white tracking-tight">nyumba.ai</span>
           </div>
 
@@ -268,8 +268,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onAdminClick }) => {
       <footer className="bg-black py-20 border-t border-white/10 text-sm">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
           <div className="col-span-2">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center text-black font-bold text-xl shadow-lg shadow-emerald-500/20">N</div>
+            <div className="flex items-center gap-3 mb-6">
+              <img src="/logo.png" alt="Nyumba AI" className="h-12 w-auto object-contain" />
               <span className="text-xl font-bold text-white tracking-tight">nyumba.ai</span>
             </div>
             <p className="text-slate-500 max-w-xs mb-8 leading-relaxed">
