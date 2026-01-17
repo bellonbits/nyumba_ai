@@ -7,7 +7,7 @@
       "status": "Active",
       "id": "L1768591380987",
       "created_at": "2026-01-16T19:23:00.987Z",
-      "lastActive": "2026-01-16T21:13:54.314Z"
+      "lastActive": "2026-01-17T17:13:24.264Z"
     },
     {
       "name": "TI7229",
@@ -253,6 +253,24 @@
       },
       "id": "INT1768598034313",
       "timestamp": "2026-01-16T21:13:54.313Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "hey"
+      },
+      "id": "INT1768670004241",
+      "timestamp": "2026-01-17T17:13:24.241Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "hey"
+      },
+      "id": "INT1768670004258",
+      "timestamp": "2026-01-17T17:13:24.258Z"
     }
   ],
   "messages": [
@@ -563,6 +581,34 @@
       "text": "I've updated the booking details:\n\n**Viewing Details:**\n\n* **Property:** 50x100 Plot in Kitengela (KIT-PLOT-SALE)\n* **Date:** This Sunday\n* **Time:** Morning (around 10:00 AM)\n* **Location:** Kitengela, Kajiado (exact address will be provided by the agent)\n* **Agent:** (Agent's Name) - Mobile: (Agent's Mobile Number)\n\nAnd here's the notification to the admin:\n\n[BOOKING: Peter | 0793046776 | KIT-PLOT-SALE | This Sunday Morning]\n\nOur field agent will meet you at the plot on Sunday morning. They're looking forward to showing you around!\n\nHave a great weekend, Peter!",
       "id": "MSG1768598035103-0.6282869218877719",
       "timestamp": "2026-01-16T21:13:55.103Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "hey",
+      "id": "MSG1768670004247-0.6659973324104957",
+      "timestamp": "2026-01-17T17:13:24.247Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "hey",
+      "id": "MSG1768670004262-0.27250922703628877",
+      "timestamp": "2026-01-17T17:13:24.262Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "You're all set for the viewings this weekend!\n\nJust a friendly reminder:\n\n* Saturday morning: Palatial 5BR Villa in Karen (with Agent's Name)\n* Sunday morning: 50x100 Plot in Kitengela (with Agent's Name)\n\nIf you have any last-minute questions or need further assistance, feel free to ask!\n\nHave a great weekend, and I hope you find your dream property!",
+      "id": "MSG1768670004835-0.5137410667832123",
+      "timestamp": "2026-01-17T17:13:24.835Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Hey Peter! Just a friendly reminder: \n\n* Don't forget about your viewing at the 50x100 Plot in Kitengela this Sunday morning at 10:00 AM.\n* Our field agent will meet you at the property.\n\nIf you have any last-minute questions or need further assistance, feel free to ask!",
+      "id": "MSG1768670005391-0.37943883584585136",
+      "timestamp": "2026-01-17T17:13:25.391Z"
     }
   ]
 }

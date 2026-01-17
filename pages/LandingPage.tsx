@@ -37,11 +37,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onAdminClick }) => {
 
           {/* Right: Actions */}
           <div className="flex items-center gap-6">
-            <button onClick={onAdminClick} className="text-sm font-medium text-white hover:text-emerald-400 transition-colors">
-              Sign In
-            </button>
-            <a href="https://t.me/NyumbaAIBot" target="_blank" className="bg-white text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-slate-200 transition-all shadow-lg hover:shadow-white/20">
-              Start Free Trial
+            <a href="https://t.me/nyumba_AiBot" target="_blank" className="bg-white text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-slate-200 transition-all shadow-lg hover:shadow-white/20">
+              Connect to AI
             </a>
           </div>
         </div>
@@ -63,13 +60,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onAdminClick }) => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
-            <a href="https://t.me/NyumbaAIBot" className="bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-200 transition-all flex items-center gap-2 shadow-xl shadow-white/10 hover:shadow-white/20 hover:-translate-y-1">
+            <a href="https://t.me/nyumba_AiBot" target="_blank" className="bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-200 transition-all flex items-center gap-2 shadow-xl shadow-white/10 hover:shadow-white/20 hover:-translate-y-1">
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-1.93 1.23-5.46 3.62-.51.35-.98.52-1.4.51-.46-.01-1.35-.26-2.01-.48-.81-.27-1.45-.42-1.39-.88.03-.24.36-.48.99-.74 3.88-1.69 6.46-2.8 7.74-3.35 3.68-1.55 4.44-1.82 4.93-1.83.11 0 .35.03.5.16.13.1.17.24.18.33 0 .07.01.2.01.28z" /></svg>
               Connect Telegram
             </a>
-            <button onClick={onAdminClick} className="px-8 py-4 rounded-full font-bold text-lg text-white border border-white/10 hover:bg-white/5 transition-all">
-              View Dashboard
-            </button>
           </div>
 
           {/* Floating UI Mockup */}
