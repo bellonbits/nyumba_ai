@@ -23,7 +23,9 @@ export const Navbar: React.FC = () => {
 
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-2 z-50 relative">
-                    <img src={logo} alt="Nyumba AI" className="h-10 w-auto object-contain" />
+                    <div className="bg-slate-900 p-2 rounded-xl">
+                        <img src={logo} alt="Nyumba AI" className="h-6 w-auto object-contain" />
+                    </div>
                     <span className="text-xl font-bold tracking-tight text-slate-900">NYUMBA AI</span>
                 </Link>
 
