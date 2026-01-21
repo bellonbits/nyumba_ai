@@ -1,34 +1,26 @@
-
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { LandingPage } from './pages/LandingPage';
 import { AdminDashboard } from './pages/AdminDashboard';
 import { ChatPreview } from './pages/ChatPreview';
-
-type Page = 'landing' | 'admin' | 'chat';
+import { PropertiesPage } from './pages/Properties';
+import { ServicesPage } from './pages/Services';
+import { AboutPage } from './pages/About';
+import { BlogPage } from './pages/Blog';
 
 const App: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState<Page>('landing');
-
-  const navigateTo = (page: Page) => {
-    setCurrentPage(page);
-    window.scrollTo(0, 0);
-  };
-
   return (
-    <div className="font-sans text-slate-900 bg-white">
-      {currentPage === 'landing' && (
-        <LandingPage onAdminClick={() => navigateTo('admin')} />
-      )}
-      {currentPage === 'admin' && (
-        <AdminDashboard 
-          onLogout={() => navigateTo('landing')} 
-          onChatClick={() => navigateTo('chat')}
-        />
-      )}
-      {currentPage === 'chat' && (
-        <ChatPreview onBack={() => navigateTo('admin')} />
-      )}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/chat" element={<ChatPreview />} />
+        <Route path="/properties" element={<PropertiesPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
