@@ -42,7 +42,7 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="pt-32 pb-20 max-w-[1400px] mx-auto px-6">
+      <div className="pt-24 pb-12 md:pt-32 md:pb-20 max-w-[1400px] mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 
           {/* Text Content */}
@@ -201,7 +201,7 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
       </div>
 
       {/* Featured Section */}
-      <section className="py-20 bg-gray-50/50">
+      <section className="py-12 md:py-20 bg-gray-50/50">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -209,7 +209,7 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
           variants={stagger}
           className="max-w-[1400px] mx-auto px-6"
         >
-          <div className="flex items-end justify-between mb-12">
+          <div className="flex items-end justify-between mb-8 md:mb-12">
             <motion.div variants={fadeInUp}>
               <h2 className="text-4xl font-bold mb-4">Discover Best Properties <br /> Tailored to You</h2>
               <p className="text-gray-500">Explore our latest packages this month, with options for every traveler.</p>
@@ -261,10 +261,10 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
       </section>
 
       {/* Social Proof */}
-      <section className="py-12 border-y border-white/5 bg-black/20">
+      <section className="py-10 md:py-16 border-y border-gray-100 bg-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <p className="text-slate-600 text-xs font-bold tracking-[0.2em] mb-8">TRUSTED BY LEADING REAL ESTATE DEVELOPERS</p>
-          <div className="flex flex-wrap justify-center gap-12 md:gap-20 grayscale opacity-40 hover:opacity-100 transition-opacity duration-500">
+          <div className="flex flex-wrap justify-center gap-12 md:gap-20 grayscale opacity-60 hover:opacity-100 transition-opacity duration-500">
             {['Safaricom', 'Centum', 'HassConsult', 'Knight Frank', 'Pam Golding'].map(brand => (
               <span key={brand} className="text-xl md:text-2xl font-bold text-slate-400 cursor-default">{brand}</span>
             ))}
@@ -273,14 +273,14 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
       </section>
 
       {/* Feature Grid (Dark) */}
-      <section className="py-32 relative overflow-hidden bg-[#0F172A] text-white my-20 rounded-[3rem] mx-6">
+      <section className="py-16 md:py-32 relative overflow-hidden bg-[#0F172A] text-white my-12 md:my-20 rounded-[2rem] md:rounded-[3rem] mx-4 md:mx-6">
         <div className="max-w-[1400px] mx-auto px-6">
           <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={stagger}
-            className="grid md:grid-cols-2 gap-16 items-center"
+            className="grid md:grid-cols-2 gap-10 md:gap-16 items-center"
           >
             <div className="relative z-10">
               <motion.h2 variants={fadeInUp} className="text-3xl md:text-5xl font-bold mb-6 leading-tight">Customer Support AI on <span className="text-emerald-400">WhatsApp & Telegram</span>.</motion.h2>
@@ -354,7 +354,6 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
                   >
                     <div className="h-24 bg-slate-700/50 rounded-lg mb-2 w-full animate-pulse"></div>
                     <div className="font-bold text-white text-xs">Yaya Heights Apt</div>
-                    <div className="text-[10px] text-emerald-400">KES 55,000 / month</div>
                   </motion.div>
                 </div>
               </motion.div>
