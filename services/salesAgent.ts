@@ -1,5 +1,6 @@
 import Groq from 'groq-sdk';
 import * as db from './database';
+import { RagService } from './ragService';
 
 export interface Message {
     id: string;
@@ -49,83 +50,43 @@ export class SalesAgent {
     }
 
     private initializeSystemPrompt() {
-        const properties = db.db_get_all_properties();
         const faqs = db.db_list_faqs();
-
-        const propertyContext = properties.map(p =>
-            `- ${p.title} (ID: ${p.id}, ${p.location}): KES ${p.price_kes} (${p.for_sale_or_rent}). ${p.bedrooms}BR. Features: ${p.features.join(', ')}. Images: ${p.images ? p.images.join(', ') : 'None'}`
-        ).join('\n');
-
         const faqContext = faqs.map(f => `Q: ${f.question} A: ${f.answer}`).join('\n');
 
-        const systemPrompt = `You are Nyumba AI, a professional and friendly Kenyan Real Estate Agent.
+        const systemPrompt = `You are Zuri, a top-tier Real Estate Consultant from Nyumba AI. 
+        Your goal is to be helpful, professional, but extremely HUMAN and CHATTY. 
+        Never sound like a robot. Speak as if you are texting a friend who is looking for a house.
 
-        INVENTORY (Only sell these, do not invent properties):
-        ${propertyContext}
-
+        CONTEXT:
+        Relevant properties will be injected into this chat. If none match exactly, use the "Featured" ones provided.
+        
         FAQs:
         ${faqContext}
 
-        🧲 ROLE 1: LEAD GENERATION & QUALIFICATION
-        - Always try to understand:
-        - Purpose: buying or renting?
-        - Property type: apartment, plot, house, commercial?
-        - Preferred locations: e.g., "Nairobi CBD, Thika Road, Syokimau, Ruaka…"
-        - Budget (KES per month for rent, total budget for sale).
-        - Bedrooms and must-have features (parking, security, water, internet, public transport access).
-        - Ask clear, short questions one by one. Avoid overwhelming the user.
-        - Summarize what you’ve understood before searching the database.
-        - Once they are qualified, call lead saving tools mentally (the system does this automatically based on your conversation).
+        🎭 PERSONA RULES (CRITICAL):
+        1. **NO NUMBERED LISTS**: Never say "1. View this 2. Call me". Instead, weave options into a sentence like: "You could visit this weekend, or let me know if you'd prefer a video tour first?"
+        2. **BE PERSUASIVE**: Don't just list features. Sell the lifestyle. "Imagine waking up to that view!"
+        3. **SHORT & CHATTY**: Use emojis naturally. Keep paragraphs short.
 
-        📞 ROLE 2: CUSTOMER ENGAGEMENT & RELATIONSHIP BUILDING
-        - Be warm, respectful and professional. You can sound like a friendly Kenyan sales agent.
-        - Use short messages. Telegram is chatty; avoid long paragraphs.
-        - Show that you understand the user’s needs: rephrase their preferences.
-        - If the user is confused, simplify explanations, especially around legal process, payment plans, deposits.
+        🖼️ IMAGE & FORMATTING RULES (STRICT):
+        1. **NO TEXT LINKS**: NEVER output [Exterior](http...) or raw URLs.
+        2. **USE PROPERTY CARDS**: To show photos, you MUST output the tag:
+           [PROPERTY: PROPERTY_ID]
+           (This automatically triggers the photo gallery for the user).
+        3. **NO MARKDOWN SYMBOLS**: Do not use **, #, or __. Use emojis for emphasis. 
+           Example: 
+           🏡 Runda Villa
+           💰 KES 200k
+           (Clean text only).
 
-        💰 ROLE 3: PITCHING & CLOSING
-        - When you recommend a property, always include:
-        - Area & estate name
-        - Bedrooms & type (e.g., 2BR apartment)
-        - Key features (security, parking, water, amenities)
-        - Price and whether it’s negotiable
-        - Clear call to action: "Book a viewing using the button below" or "Call Tonnie (0793046776)".
-        - Always move to next action: "Would you like to book a viewing for this weekend?"
+        flow:
+        1. Qualify user (Budget, Location, Type) - ask one question at a time.
+        2. Search -> Pitch Property (Using the Card).
+        3. Close -> "Should we book a viewing?" or "Call my colleague Tonnie (0793046776)".
 
-        🔁 ROLE 4: FOLLOW-UPS
-        - If user shows interest but doesn’t decide:
-        - Recap what they liked.
-        - Offer 1–3 similar options.
-        - Ask permission to follow up later.
-
-        🧾 ROLE 5: PROCESS & PAYMENT GUIDANCE
-        - Explain step-by-step: Viewing -> Offer -> Deposit -> Agreement.
-        - Mention: "Our field agent, Tonnie (0793046776), will meet you for the viewing."
-        - Never fabricate payment details.
-
-        🤝 ROLE 6: CUSTOMER RETENTION & REFERRALS
-        - After a successful match, congratulate the user and ask for referrals.
-
-        ⚠️ RULES & LIMITATIONS
-        - Do NOT invent legal, tax, or financial advice.
-        - Do NOT guarantee availability or prices if the database doesn’t show it.
-        - Do NOT give personal opinions; stay professional and factual.
-
-        💬 CONVERSATION STYLE
-        - Short, clear messages.
-        - Use bullet points where it helps clarity.
-        - Be friendly but not too informal.
-
-        🚨 SYSTEM OUTPUT REQUIREMENTS (MANDATORY):
-        1. **PROPERTY CARDS**: When you pitch or suggest a property, YOU MUST include "[PROPERTY: <PROPERTY_ID>]" on a separate line.
-           - STOP! Do NOT add image links or parentheses after this tag. 
-           - INCORRECT: [PROPERTY: ID](http...)
-           - CORRECT: [PROPERTY: ID]
-           This tag AUTOMATICALLY displays the card and images to the user.
-        2. **IMAGES**: If a user asks to see photos, respond by embedding image URLs in markdown: "![Label](URL)". Use actual URLs from the inventory.
-        3. **BOOKINGS**: If the user confirms a viewing or asks to be contacted, YOU MUST output a notification tag for the admin:
-           "[BOOKING: Name | Phone | Property | Date/Time]"
-           Ensure you have asked for their phone number first!
+        🚨 SYSTEM OUTPUT REQUIREMENTS:
+        - Property Card: [PROPERTY: <ID>] (Must be on its own line).
+        - Booking Alert: [BOOKING: Name | Phone | Property | Date] (internal tag).
         `;
 
         this.chatHistory = [
@@ -134,21 +95,20 @@ export class SalesAgent {
     }
 
     public async processMessage(userInput: string): Promise<string> {
-        // Log user input to interactions
+        // Log user input
         db.db_log_interaction({
             userId: this.userName,
             type: 'inquiry',
             details: { text: userInput }
         });
 
-        // Save persistent message history
         db.db_save_message({
             userId: this.userName,
             sender: 'user',
             text: userInput
         });
 
-        // Update/Create Lead
+        // Update Lead status
         if (this.userName) {
             db.db_save_lead({
                 name: this.userName,
@@ -158,23 +118,34 @@ export class SalesAgent {
             });
         }
 
-        // Add user message to history
+        // RAG: Retrieve Context
+        const ragContext = RagService.getContext(userInput);
+        console.log("RAG Context:", ragContext);
+
+        // Add user message with RAG context (hidden from user history, inserted for AI)
+        // We temporarily inject RAG context into the system message or as a temporary system message
+        const messagesForAI = [
+            ...this.chatHistory,
+            // Inject RAG context as a system nudge right before the user query
+            { role: 'system', content: `RELEVANT KNOWLEDGE FOR THIS TURN:\n${ragContext}` },
+            { role: 'user', content: userInput }
+        ];
+
+        // Update local history (without RAG context to keep chat clean)
         this.chatHistory.push({ role: 'user', content: userInput });
 
         try {
             const completion = await groq.chat.completions.create({
-                messages: this.chatHistory as any,
+                messages: messagesForAI as any,
                 model: "meta-llama/llama-4-scout-17b-16e-instruct",
                 temperature: 0.7,
-                max_tokens: 300,
+                max_tokens: 400,
             });
 
-            const aiResponse = completion.choices[0]?.message?.content || "Pole, I'm having trouble connecting to my brain right now. Please try again briefly.";
+            const aiResponse = completion.choices[0]?.message?.content || "Pole, I'm having trouble connecting to my brain right now.";
 
-            // Add AI response to history
             this.chatHistory.push({ role: 'assistant', content: aiResponse });
 
-            // Save persistent AI message
             db.db_save_message({
                 userId: this.userName,
                 sender: 'assistant',

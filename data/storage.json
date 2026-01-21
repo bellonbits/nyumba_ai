@@ -7,7 +7,7 @@
       "status": "Active",
       "id": "L1768591380987",
       "created_at": "2026-01-16T19:23:00.987Z",
-      "lastActive": "2026-01-17T17:37:36.942Z"
+      "lastActive": "2026-01-21T13:12:27.826Z"
     },
     {
       "name": "TI7229",
@@ -16,7 +16,7 @@
       "status": "Active",
       "id": "L1768592359143",
       "created_at": "2026-01-16T19:39:19.143Z",
-      "lastActive": "2026-01-16T19:40:04.708Z"
+      "lastActive": "2026-01-21T13:05:32.611Z"
     }
   ],
   "interactions": [
@@ -298,6 +298,447 @@
       },
       "id": "INT1768671456940",
       "timestamp": "2026-01-17T17:37:36.940Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Hey"
+      },
+      "id": "INT1768997436398",
+      "timestamp": "2026-01-21T12:10:36.398Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Hey"
+      },
+      "id": "INT1768997440732",
+      "timestamp": "2026-01-21T12:10:40.732Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Hey"
+      },
+      "id": "INT1768997516231",
+      "timestamp": "2026-01-21T12:11:56.231Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Explore"
+      },
+      "id": "INT1768997528796",
+      "timestamp": "2026-01-21T12:12:08.796Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Red"
+      },
+      "id": "INT1768997540891",
+      "timestamp": "2026-01-21T12:12:20.891Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Residential"
+      },
+      "id": "INT1768997550035",
+      "timestamp": "2026-01-21T12:12:30.035Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Images"
+      },
+      "id": "INT1768997591859",
+      "timestamp": "2026-01-21T12:13:11.859Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Townhouse"
+      },
+      "id": "INT1768997606762",
+      "timestamp": "2026-01-21T12:13:26.762Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Images"
+      },
+      "id": "INT1768997616151",
+      "timestamp": "2026-01-21T12:13:36.151Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Hey"
+      },
+      "id": "INT1768998508999",
+      "timestamp": "2026-01-21T12:28:28.999Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Images"
+      },
+      "id": "INT1768998516525",
+      "timestamp": "2026-01-21T12:28:36.525Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Heeyy"
+      },
+      "id": "INT1769000418763",
+      "timestamp": "2026-01-21T13:00:18.763Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Hi"
+      },
+      "id": "INT1769000419236",
+      "timestamp": "2026-01-21T13:00:19.236Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Syokimau"
+      },
+      "id": "INT1769000448601",
+      "timestamp": "2026-01-21T13:00:48.601Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Yes"
+      },
+      "id": "INT1769000475430",
+      "timestamp": "2026-01-21T13:01:15.430Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "How are you"
+      },
+      "id": "INT1769000476758",
+      "timestamp": "2026-01-21T13:01:16.758Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Video tour"
+      },
+      "id": "INT1769000489582",
+      "timestamp": "2026-01-21T13:01:29.582Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Hey 👋"
+      },
+      "id": "INT1769000561137",
+      "timestamp": "2026-01-21T13:02:41.137Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "No"
+      },
+      "id": "INT1769000574723",
+      "timestamp": "2026-01-21T13:02:54.723Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Naivasha"
+      },
+      "id": "INT1769000590473",
+      "timestamp": "2026-01-21T13:03:10.473Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "3"
+      },
+      "id": "INT1769000604306",
+      "timestamp": "2026-01-21T13:03:24.306Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Hi"
+      },
+      "id": "INT1769000605066",
+      "timestamp": "2026-01-21T13:03:25.066Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "1"
+      },
+      "id": "INT1769000618546",
+      "timestamp": "2026-01-21T13:03:38.546Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "2"
+      },
+      "id": "INT1769000630920",
+      "timestamp": "2026-01-21T13:03:50.920Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Hi"
+      },
+      "id": "INT1769000633089",
+      "timestamp": "2026-01-21T13:03:53.089Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "Yes"
+      },
+      "id": "INT1769000650188",
+      "timestamp": "2026-01-21T13:04:10.188Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Kilimani"
+      },
+      "id": "INT1769000652756",
+      "timestamp": "2026-01-21T13:04:12.756Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Yes book a viewing"
+      },
+      "id": "INT1769000686835",
+      "timestamp": "2026-01-21T13:04:46.835Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Saturday \n2 PM"
+      },
+      "id": "INT1769000712877",
+      "timestamp": "2026-01-21T13:05:12.877Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Yes"
+      },
+      "id": "INT1769000721445",
+      "timestamp": "2026-01-21T13:05:21.445Z"
+    },
+    {
+      "userId": "TI7229",
+      "type": "inquiry",
+      "details": {
+        "text": "Yes all good"
+      },
+      "id": "INT1769000732592",
+      "timestamp": "2026-01-21T13:05:32.592Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "/start"
+      },
+      "id": "INT1769000843253",
+      "timestamp": "2026-01-21T13:07:23.253Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "new home"
+      },
+      "id": "INT1769000851195",
+      "timestamp": "2026-01-21T13:07:31.195Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "3"
+      },
+      "id": "INT1769000859084",
+      "timestamp": "2026-01-21T13:07:39.084Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "more oprions"
+      },
+      "id": "INT1769000877069",
+      "timestamp": "2026-01-21T13:07:57.069Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "woow"
+      },
+      "id": "INT1769000885261",
+      "timestamp": "2026-01-21T13:08:05.261Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "why should i take this"
+      },
+      "id": "INT1769000903112",
+      "timestamp": "2026-01-21T13:08:23.112Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "no i need a mabati house"
+      },
+      "id": "INT1769000918900",
+      "timestamp": "2026-01-21T13:08:38.900Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "in hururma"
+      },
+      "id": "INT1769000942312",
+      "timestamp": "2026-01-21T13:09:02.312Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "similar"
+      },
+      "id": "INT1769000960609",
+      "timestamp": "2026-01-21T13:09:20.609Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "images"
+      },
+      "id": "INT1769000972841",
+      "timestamp": "2026-01-21T13:09:32.841Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "no real images show me the other houses"
+      },
+      "id": "INT1769000994401",
+      "timestamp": "2026-01-21T13:09:54.402Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "in kilimani"
+      },
+      "id": "INT1769001003565",
+      "timestamp": "2026-01-21T13:10:03.565Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "not mabati lol"
+      },
+      "id": "INT1769001015090",
+      "timestamp": "2026-01-21T13:10:15.090Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "thank you"
+      },
+      "id": "INT1769001028767",
+      "timestamp": "2026-01-21T13:10:28.767Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "who are you"
+      },
+      "id": "INT1769001034294",
+      "timestamp": "2026-01-21T13:10:34.294Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "ye"
+      },
+      "id": "INT1769001127144",
+      "timestamp": "2026-01-21T13:12:07.144Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "who are you"
+      },
+      "id": "INT1769001135781",
+      "timestamp": "2026-01-21T13:12:15.781Z"
+    },
+    {
+      "userId": "Don",
+      "type": "inquiry",
+      "details": {
+        "text": "okay"
+      },
+      "id": "INT1769001147794",
+      "timestamp": "2026-01-21T13:12:27.794Z"
     }
   ],
   "messages": [
@@ -678,6 +1119,678 @@
       "text": "How was your viewing at the 50x100 Plot in Kitengela? Did you have a chance to see the property and get your questions answered?",
       "id": "MSG1768671457825-0.36901393198022614",
       "timestamp": "2026-01-17T17:37:37.825Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Hey",
+      "id": "MSG1768997436408-0.7573328507211545",
+      "timestamp": "2026-01-21T12:10:36.408Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Hey",
+      "id": "MSG1768997440741-0.6356027108957387",
+      "timestamp": "2026-01-21T12:10:40.741Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Hey",
+      "id": "MSG1768997516237-0.24044978651347515",
+      "timestamp": "2026-01-21T12:11:56.237Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Hey Peter! Just checking in. Are you considering making an offer on the 50x100 Plot in Kitengela or would you like to explore more options?",
+      "id": "MSG1768997518736-0.5206151950319671",
+      "timestamp": "2026-01-21T12:11:58.736Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Explore",
+      "id": "MSG1768997528801-0.35567413445868157",
+      "timestamp": "2026-01-21T12:12:08.801Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Let's explore more options.\n\nWhat type of property are you looking for?\n\n1. Residential (house, apartment, etc.)\n2. Commercial (office, shop, etc.)\n3. Land (plot, farm, etc.)\n\nOr do you have a specific location in mind?",
+      "id": "MSG1768997529397-0.09845123043859094",
+      "timestamp": "2026-01-21T12:12:09.397Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Red",
+      "id": "MSG1768997540897-0.4851559689457414",
+      "timestamp": "2026-01-21T12:12:20.897Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "You mentioned \"Red\". Are you referring to a specific location or perhaps a property with a red theme?\n\nCould you clarify or provide more context about what you're looking for?",
+      "id": "MSG1768997541345-0.09962957935630046",
+      "timestamp": "2026-01-21T12:12:21.345Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Residential",
+      "id": "MSG1768997550043-0.43993414434550315",
+      "timestamp": "2026-01-21T12:12:30.043Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Let's look at some residential properties.\n\nHere are a few options:\n\n* **3-Bedroom Townhouse in Nairobi West**: KES 12,000,000\n\t+ Location: Nairobi West\n\t+ Features: 3 bedrooms, 2 bathrooms, garden, parking\n* **4-Bedroom Maisonette in Karen**: KES 25,000,000\n\t+ Location: Karen\n\t+ Features: 4 bedrooms, 3 bathrooms, garden, swimming pool\n* **2-Bedroom Apartment in Kilimani**: KES 8,000,000\n\t+ Location: Kilimani\n\t+ Features: 2 bedrooms, 2 bathrooms, gym, swimming pool\n\nWhich one of these options interests you?\n\nOr would you like me to suggest more properties?",
+      "id": "MSG1768997551205-0.84404941697266",
+      "timestamp": "2026-01-21T12:12:31.205Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Images",
+      "id": "MSG1768997591864-0.4060292018071623",
+      "timestamp": "2026-01-21T12:13:11.864Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "I'd be happy to provide images of the properties.\n\nHere are the image links:\n\n* **3-Bedroom Townhouse in Nairobi West**: [View Image](https://example.com/nairobi-west-townhouse.jpg)\n* **4-Bedroom Maisonette in Karen**: [View Image](https://example.com/karen-maisonette.jpg)\n* **2-Bedroom Apartment in Kilimani**: [View Image](https://example.com/kilimani-apartment.jpg)\n\nPlease note that these are just examples, and actual images may vary.\n\nWould you like to:\n\n1. View more properties\n2. Schedule a viewing for one of these properties\n3. Ask more questions about these properties",
+      "id": "MSG1768997592706-0.037167038014562115",
+      "timestamp": "2026-01-21T12:13:12.706Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Townhouse",
+      "id": "MSG1768997606768-0.7472719928468934",
+      "timestamp": "2026-01-21T12:13:26.768Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "The 3-Bedroom Townhouse in Nairobi West.\n\n**Property Details:**\n\n* Location: Nairobi West\n* Price: KES 12,000,000\n* 3 Bedrooms, 2 Bathrooms\n* Garden, Parking\n\n**Key Features:**\n\n✓ Modern finishes\n✓ Spacious living area\n✓ Kitchen with granite countertops\n\nWould you like to:\n\n1. Schedule a viewing\n2. Ask more questions\n3. Make an offer\n\nLet me know, and I'll assist you further!",
+      "id": "MSG1768997607743-0.7554538807231055",
+      "timestamp": "2026-01-21T12:13:27.743Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Images",
+      "id": "MSG1768997616156-0.175915995206543",
+      "timestamp": "2026-01-21T12:13:36.156Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Here are some images of the 3-Bedroom Townhouse in Nairobi West:\n\n[Image 1: Exterior](https://example.com/nairobi-west-townhouse-exterior.jpg)\n[Image 2: Living Room](https://example.com/nairobi-west-townhouse-living-room.jpg)\n[Image 3: Kitchen](https://example.com/nairobi-west-townhouse-kitchen.jpg)\n[Image 4: Bedroom](https://example.com/nairobi-west-townhouse-bedroom.jpg)\n\nYou can also view a virtual tour: [Virtual Tour](https://example.com/nairobi-west-townhouse-virtual-tour)\n\nWould you like to:\n\n1. Schedule a viewing\n2. Ask more questions\n3. Make an offer\n\nLet me know!",
+      "id": "MSG1768997616872-0.8480834017794912",
+      "timestamp": "2026-01-21T12:13:36.872Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Hey",
+      "id": "MSG1768998509006-0.5051676276851584",
+      "timestamp": "2026-01-21T12:28:29.006Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Hey! Still interested in the 3-Bedroom Townhouse in Nairobi West? \n\nWant to:\n\n1. Book a viewing\n2. Get more details\n3. Explore other options \n\nLet me know!",
+      "id": "MSG1768998509878-0.17973010545938362",
+      "timestamp": "2026-01-21T12:28:29.878Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Images",
+      "id": "MSG1768998516531-0.056655839931013086",
+      "timestamp": "2026-01-21T12:28:36.531Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Here are the image links again:\n\n[PROPERTY: 12345]\nhttps://example.com/nairobi-west-townhouse-exterior.jpg\nhttps://example.com/nairobi-west-townhouse-living-room.jpg\nhttps://example.com/nairobi-west-townhouse-kitchen.jpg\nhttps://example.com/nairobi-west-townhouse-bedroom.jpg\n\nWould you like to:\n\n1. Schedule a viewing with Tonnie (0793046776)\n2. Ask more questions\n3. Make an offer",
+      "id": "MSG1768998517095-0.4053763483036281",
+      "timestamp": "2026-01-21T12:28:37.095Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Heeyy",
+      "id": "MSG1769000418776-0.06212811208916125",
+      "timestamp": "2026-01-21T13:00:18.776Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Hi",
+      "id": "MSG1769000419248-0.9263208655559134",
+      "timestamp": "2026-01-21T13:00:19.248Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Heeyy! 😊 How's it going? Still house hunting? Let's look at some featured properties:\n\n[PROPERTY: RUN-4BR-016]\n 🏡 Runda Villa\n 💰 KES 300,000\n 4 Bedrooms, Large Compound\n\n[PROPERTY: RKA-2BR-007]\n 🏡 Affordable 2BR in Ruaka\n 💰 KES 35,000\n 2 Bedrooms, Wi-Fi Ready, Borehole\n\n[PROPERTY: KIL-PEN-004]\n 🏡 Luxury 4BR Penthouse Kileleshwa\n 💰 KES 250,000\n 4 Bedrooms, Penthouse, Jacuzzi\n\nWhich one catches your eye? 🤔 \nWant to book a viewing or get more details?",
+      "id": "MSG1769000419981-0.4273220064234242",
+      "timestamp": "2026-01-21T13:00:19.981Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "No matches found for Kilimanjaro. Instead, here are some featured properties:\n\n[PROPERTY: LAV-TWN-015]\n🏡 5BR Townhouse Lavington\n💰 KES 200,000\nFeatures: Garden, DSQ\n\n[PROPERTY: GGM-3BR-008]\n🏡 3BR Master Ensuite Along Thika Rd\n💰 KES 60,000\nLocation: Garden Estate, Nairobi\nFeatures: Near Mall, Master Ensuite, Kids Play Area\n\n[PROPERTY: SYO-TWN-010]\n🏡 4BR Townhouse in Syokimau\n💰 KES 80,000\nFeatures: Gated, Kids Play Area, Borehole, Solar\n\nWhich one catches your eye? 🤔",
+      "id": "MSG1769000420272-0.15846809117573257",
+      "timestamp": "2026-01-21T13:00:20.272Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Syokimau",
+      "id": "MSG1769000448609-0.6910844990624119",
+      "timestamp": "2026-01-21T13:00:48.609Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "Syokimau is a great location. I have a beautiful 4BR Townhouse available for rent in Syokimau.\n\n[PROPERTY: SYO-TWN-010]\n🏡 4BR Townhouse in Syokimau\n💰 KES 80,000\nFeatures: Gated, Kids Play Area, Borehole, Solar, Master Ensuite\n\nImagine waking up to a peaceful morning in this spacious townhouse, with a gated community and kids' play area. Would you like to book a viewing or see more details?",
+      "id": "MSG1769000449304-0.7342182563411572",
+      "timestamp": "2026-01-21T13:00:49.304Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Yes",
+      "id": "MSG1769000475447-0.7264070151915789",
+      "timestamp": "2026-01-21T13:01:15.447Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "The 4BR Townhouse in Syokimau has:\n\n* 4 Bedrooms\n* 2 Bathrooms\n* Master Ensuite\n* Gated Community\n* Kids Play Area\n* Borehole\n* Solar\n\nIt's KES 80,000 per month. \n\nWould you like to book a viewing for this weekend or maybe a video tour first?",
+      "id": "MSG1769000476040-0.6114036245204819",
+      "timestamp": "2026-01-21T13:01:16.040Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "How are you",
+      "id": "MSG1769000476767-0.1850476651343358",
+      "timestamp": "2026-01-21T13:01:16.767Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "I'm doing great, thanks for asking! 😊 I'm here to help you find your dream home. How about you? Still on the hunt for the perfect place? 🏠💕 \n\nLet's try to narrow down your search. What's your budget for the property?",
+      "id": "MSG1769000477234-0.5110419024863939",
+      "timestamp": "2026-01-21T13:01:17.234Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Video tour",
+      "id": "MSG1769000489596-0.011425099976772435",
+      "timestamp": "2026-01-21T13:01:29.596Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "I'd be happy to arrange a video tour for you. My colleague will reach out to you to schedule a convenient time.\n\nIn the meantime, here are some more featured properties in different locations:\n\n[PROPERTY: LAV-TWN-015]\n 🏡 5BR Townhouse Lavington\n 💰 KES 200,000\n Features: Garden, DSQ\n\n[PROPERTY: KAH-SUK-026]\n 🏡 1BR Kahawa Sukari\n 💰 KES 18,000\n Features: Water\n\n[PROPERTY: KAS-AR-027]\n 🏡 3BR Kasarani\n 💰 KES 40,000\n Features: Parking\n\nLet me know if you'd like to explore more options or proceed with the video tour!",
+      "id": "MSG1769000490329-0.5674447320432152",
+      "timestamp": "2026-01-21T13:01:30.329Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Hey 👋",
+      "id": "MSG1769000561151-0.2836377007406927",
+      "timestamp": "2026-01-21T13:02:41.151Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Hey 👋! What's up? Still thinking about finding a new place? I've got some great options for you! \n\nHow about this one:\n\n[PROPERTY: THK-RD-025]\n 🏡 2BR Roysambu\n 💰 KES 25,000\n 2 Bedrooms, Wi-Fi\n\nOr this one:\n\n[PROPERTY: SYO-APT-018]\n 🏡 3BR Apt Syokimau\n 💰 KES 45,000\n 3 Bedrooms, Water, Parking\n\nWhich one do you like? 🤔 Want to book a viewing or get more details?",
+      "id": "MSG1769000562817-0.6926034184370073",
+      "timestamp": "2026-01-21T13:02:42.817Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "No",
+      "id": "MSG1769000574748-0.9424569131276763",
+      "timestamp": "2026-01-21T13:02:54.748Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "No worries! Let's try again. What area of Nairobi are you interested in living in? \n\n1. Westlands\n2. Karen\n3. Kilimani\n4. Other (please specify)\n\nLet me know, and I can show you some properties!",
+      "id": "MSG1769000575679-0.5022372346237673",
+      "timestamp": "2026-01-21T13:02:55.679Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Naivasha",
+      "id": "MSG1769000590493-0.07523729263094947",
+      "timestamp": "2026-01-21T13:03:10.493Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Naivasha! 😊\n\nI've got a few options for you:\n\n[PROPERTY: NAV-VIL-012]\n 🏡 3BR Villa Naivasha\n 💰 KES 40,000\n 3 Bedrooms, Large Garden\n\n[PROPERTY: NAV-APT-025]\n 🏡 2BR Apartment Naivasha\n 💰 KES 25,000\n 2 Bedrooms, Swimming Pool\n\nWant to:\n\n1. View more properties\n2. Book a viewing\n3. Get more details\n\nLet me know!",
+      "id": "MSG1769000591403-0.8175718155957012",
+      "timestamp": "2026-01-21T13:03:11.403Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "3",
+      "id": "MSG1769000604330-0.9447084960709828",
+      "timestamp": "2026-01-21T13:03:24.330Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Hi",
+      "id": "MSG1769000605083-0.5594453754349491",
+      "timestamp": "2026-01-21T13:03:25.083Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "For the 3BR Villa in Naivasha:\n\n 🏡 3BR Villa Naivasha\n 💰 KES 40,000\n 3 Bedrooms, Large Garden\n\n* 3 spacious bedrooms\n* 2 modern bathrooms\n* Large garden with mature trees\n* Parking for 2 cars\n\n**Additional Info:**\n\n* Deposit: 1 month\n* Rent: KES 40,000 per month\n* Service charge: Included\n\nWant to:\n\n1. Book a viewing\n2. Make an offer\n3. Ask more questions\n\nLet me know!",
+      "id": "MSG1769000606296-0.4733508377017166",
+      "timestamp": "2026-01-21T13:03:26.296Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "Hi! I hope you're doing well. I wanted to follow up on the video tour for the 4BR Townhouse in Syokimau. Would you like to schedule it for today or tomorrow? \n\nAlso, I have some more properties that might interest you. Here they are:\n\n[PROPERTY: KIL-2BR-013]\n🏡 Elegant 2BR on Argwings Kodhek\n💰 KES 85,000\nLocation: Kilimani\nFeatures: Pool, Gym\n\n[PROPERTY: LNG-HSE-022]\n🏡 4BR House Langata\n💰 KES 85,000\nLocation: Langata\nFeatures: Garden\n\nLet me know what's on your mind!",
+      "id": "MSG1769000607520-0.6219358810112243",
+      "timestamp": "2026-01-21T13:03:27.520Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "1",
+      "id": "MSG1769000618553-0.33698638545771975",
+      "timestamp": "2026-01-21T13:03:38.554Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Let's book a viewing for the 3BR Villa in Naivasha.\n\nWhen would you like to view the property?\n\n1. Today\n2. Tomorrow\n3. This weekend\n\nOr would you like me to suggest some dates?\n\nAlso, I just wanted to confirm: [BOOKING: Your Name | Your Phone | 3BR Villa Naivasha | Date]",
+      "id": "MSG1769000619409-0.9621426192029441",
+      "timestamp": "2026-01-21T13:03:39.409Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "2",
+      "id": "MSG1769000630933-0.42522295978833147",
+      "timestamp": "2026-01-21T13:03:50.933Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Tomorrow sounds great! I've scheduled a viewing for the 3BR Villa in Naivasha.\n\n**Viewing Details:**\n\n* Date: Tomorrow\n* Time: 10:00 AM\n* Location: Naivasha, near [ landmark/neighborhood]\n* Agent: Tonnie (0793046776)\n\n**What to Expect:**\n\n* A 30-minute tour of the property\n* Opportunity to ask questions and take photos\n\nAre you ready for the viewing? 😊 \n\n(I'll send you a confirmation message with the agent's contact info)",
+      "id": "MSG1769000632130-0.42799619974707226",
+      "timestamp": "2026-01-21T13:03:52.130Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Hi",
+      "id": "MSG1769000633109-0.7103606703192114",
+      "timestamp": "2026-01-21T13:03:53.109Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "Hi! I noticed you were interested in the 4BR Townhouse in Syokimau. I also wanted to let you know about this beautiful 3BR Apartment in South C:\n\n[PROPERTY: SGC-APT-024]\n🏡 1BR Apt South C\n💰 KES 30,000\nLocation: South C\nFeatures: Water\n\nAnd this stunning 3BR Apartment in Kilimani:\n\n[PROPERTY: KIL-LUX-001]\n🏡 Elite 3BR Apartment with DSQ\n💰 KES 120,000\nLocation: Kilimani, Nairobi\nFeatures: Rooftop Pool, Gym, Full Backup Generator, Borehole, DSQ, High Speed Lifts\n\nWhich one would you like to explore further?",
+      "id": "MSG1769000634282-0.4516509867760261",
+      "timestamp": "2026-01-21T13:03:54.282Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "Yes",
+      "id": "MSG1769000650209-0.15693346290060295",
+      "timestamp": "2026-01-21T13:04:10.209Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Confirmed! 🎉\n\nI've sent you a confirmation message with Tonnie's contact info. Don't forget to reach out to him at 10:00 AM tomorrow to finalize the viewing details.\n\n**Property Details:**\n\n[PROPERTY: NAV-VIL-012]\n 🏡 3BR Villa Naivasha\n 💰 KES 40,000\n 3 Bedrooms, Large Garden\n\nWishing you a successful viewing! 🤞\n\nFeel free to reach out if you need any further assistance!",
+      "id": "MSG1769000651905-0.1211850003113879",
+      "timestamp": "2026-01-21T13:04:11.905Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Kilimani",
+      "id": "MSG1769000652776-0.1364076502836027",
+      "timestamp": "2026-01-21T13:04:12.776Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "Kilimani is a fantastic location. I have a few options for you:\n\n[PROPERTY: KIL-2BR-013]\n🏡 Elegant 2BR on Argwings Kodhek\n💰 KES 85,000\nLocation: Kilimani\nFeatures: Pool, Gym\n\n[PROPERTY: KIL-STD-002]\n🏡 Spacious 2BR Near Yaya Center\n💰 KES 75,000\nLocation: Kilimani, Nairobi\nFeatures: Balcony, Closed Kitchen, 24/7 Security, Ample Parking\n\n[PROPERTY: KIL-LUX-001]\n🏡 Elite 3BR Apartment with DSQ\n💰 KES 120,000\nLocation: Kilimani, Nairobi\nFeatures: Rooftop Pool, Gym, Full Backup Generator, Borehole, DSQ, High Speed Lifts\n\nWhich one catches your eye? Should we book a viewing?",
+      "id": "MSG1769000655010-0.3326594125379809",
+      "timestamp": "2026-01-21T13:04:15.010Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Yes book a viewing",
+      "id": "MSG1769000686845-0.12282769787122594",
+      "timestamp": "2026-01-21T13:04:46.845Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "For which property would you like to book a viewing? \n\nLet's go with the Elegant 2BR on Argwings Kodhek:\n\n[PROPERTY: KIL-2BR-013]\n\nShall we schedule it for this weekend? What day and time works best for you? \n\nAlso, just a heads up: you'll need to bring a copy of your ID, one or two months deposit, and the first month's rent. And, yes, M-Pesa payments are accepted!",
+      "id": "MSG1769000687569-0.5302214908653871",
+      "timestamp": "2026-01-21T13:04:47.570Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Saturday \n2 PM",
+      "id": "MSG1769000712884-0.08992172868365733",
+      "timestamp": "2026-01-21T13:05:12.884Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "Your viewing for the Elegant 2BR on Argwings Kodhek is confirmed for:\n\nSaturday at 2 PM\n\nMy field agent, Jane, will meet you at the property. Please confirm your details:\n\n[BOOKING: Your Name | Your Phone | KIL-2BR-013 | Saturday, 2 PM]\n\nLooking forward to hearing how the viewing goes!",
+      "id": "MSG1769000713883-0.4759512113800255",
+      "timestamp": "2026-01-21T13:05:13.883Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Yes",
+      "id": "MSG1769000721471-0.6184439535612232",
+      "timestamp": "2026-01-21T13:05:21.471Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "😊 I'm glad everything is set. If you have any last-minute questions or need further assistance, feel free to reach out.\n\nHave a great time viewing the property on Saturday, and I look forward to hearing from you soon! 👋\n\nAlso, just to confirm, the property details are:\n\n 🏡 Elegant 2BR on Argwings Kodhek\n 💰 KES 85,000\n Location: Kilimani\n Features: Pool, Gym\n\nSee you Saturday!",
+      "id": "MSG1769000722383-0.5037217677787194",
+      "timestamp": "2026-01-21T13:05:22.383Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "user",
+      "text": "Yes all good",
+      "id": "MSG1769000732604-0.795143468496744",
+      "timestamp": "2026-01-21T13:05:32.604Z"
+    },
+    {
+      "userId": "TI7229",
+      "sender": "assistant",
+      "text": "😊 Sounds great! Enjoy your Saturday viewing, and I look forward to hearing from you soon. If you need anything or want to discuss further, I'm here to help.\n\nHave a wonderful day, and I hope you find your dream home! 🏠💕\n\n(Also, don't forget to ask Jane about the M-Pesa payment details when you meet her on Saturday 😉)",
+      "id": "MSG1769000733543-0.5282708165496592",
+      "timestamp": "2026-01-21T13:05:33.543Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "/start",
+      "id": "MSG1769000843269-0.1030313180856477",
+      "timestamp": "2026-01-21T13:07:23.269Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Let's start fresh! 🏠\n\nWhat's on your mind? Are you:\n\n1. Looking for a new home\n2. Wanting to sell your current property\n3. Needing advice on real estate\n\nI'm here to help! 🤗",
+      "id": "MSG1769000844018-0.5276653892610688",
+      "timestamp": "2026-01-21T13:07:24.018Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "new home",
+      "id": "MSG1769000851207-0.09486575735872371",
+      "timestamp": "2026-01-21T13:07:31.207Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Let's find your dream home! 🏠\n\nWhat's your budget for the new home?\n\n1. Under KES 20,000\n2. KES 20,000 - KES 50,000\n3. KES 50,000 - KES 100,000\n4. Above KES 100,000\n\nAnd what's your preferred location?\n\n1. Nairobi\n2. Naivasha\n3. Other (please specify)\n\nLet me know, and I'll show you some options!",
+      "id": "MSG1769000852085-0.669036174239755",
+      "timestamp": "2026-01-21T13:07:32.085Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "3",
+      "id": "MSG1769000859100-0.9923416634197275",
+      "timestamp": "2026-01-21T13:07:39.100Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "KES 50,000 - KES 100,000 is a great budget! 🏠\n\nHere are some options in Nairobi:\n\n[PROPERTY: WST-SKY-003]\n 🏡 Skyline View 1BR in Westlands\n 💰 KES 65,000\n 1 Bedroom, Gym, Rooftop Lounge\n\n[PROPERTY: LAV-TWN-015]\n 🏡 5BR Townhouse Lavington\n 💰 KES 200,000 (out of your budget, but nice option)\n\n[PROPERTY: SLE-WST-029]\n 🏡 Office Floor Sale in Westlands\n 💰 KES 25,000,000 (commercial property)\n\nWhich one catches your eye? 🤔\n\nOr would you like me to show more options?",
+      "id": "MSG1769000860741-0.9044479112899142",
+      "timestamp": "2026-01-21T13:07:40.741Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "more oprions",
+      "id": "MSG1769000877087-0.10067195459302214",
+      "timestamp": "2026-01-21T13:07:57.087Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Here are more options in Nairobi within your budget of KES 50,000 - KES 100,000:\n\n[PROPERTY: KIL-APT-012]\n 🏡 2BR Apartment in Kilimani\n 💰 KES 55,000\n 2 Bedrooms, Swimming Pool, Gym\n\n[PROPERTY: MNT-VIL-020]\n 🏡 3BR Villa in Mountain View\n 💰 KES 80,000\n 3 Bedrooms, Large Garden, Security\n\n[PROPERTY: NBR-APT-030]\n 🏡 1BR Apartment in Nairobi West\n 💰 KES 45,000\n 1 Bedroom, Wi-Fi, Parking\n\n[PROPERTY: ATH-RIV-020]\n 🏡 3BR House in Athi River\n 💰 KES 40,000\n 3 Bedrooms, Security\n\nWhich one interests you? 🤔\n\nOr would you like me to show more options or filter by specific features?",
+      "id": "MSG1769000878159-0.30360128368826866",
+      "timestamp": "2026-01-21T13:07:58.159Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "woow",
+      "id": "MSG1769000885274-0.8932377644736098",
+      "timestamp": "2026-01-21T13:08:05.274Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "😊 Woow indeed! 🏠 Those are some great options! 🤩\n\nLet's take a closer look at one that caught your eye:\n\n[PROPERTY: KIL-APT-012]\n 🏡 2BR Apartment in Kilimani\n 💰 KES 55,000\n 2 Bedrooms, Swimming Pool, Gym\n\nWould you like to:\n\n1. View more photos\n2. Schedule a viewing\n3. Get more details about the apartment\n\nOr would you like me to suggest similar properties?",
+      "id": "MSG1769000886038-0.8521402250566017",
+      "timestamp": "2026-01-21T13:08:06.038Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "why should i take this",
+      "id": "MSG1769000903127-0.9696483215629332",
+      "timestamp": "2026-01-21T13:08:23.127Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "🤔\n\nHere are some reasons why you might love this 2BR Apartment in Kilimani:\n\n1. **Prime Location**: Kilimani is a trendy neighborhood with easy access to restaurants, shops, and entertainment.\n2. **Modern Amenities**: Enjoy a swimming pool, gym, and secure parking.\n3. **Spacious Living**: 2 spacious bedrooms, perfect for a small family or roommates.\n4. **Affordable Luxury**: KES 55,000 is a great price for a 2BR apartment with these amenities.\n\nImagine waking up to a beautiful view, and spending your evenings relaxing by the pool or working out at the gym 🏊‍♀️.\n\nWhat do you think? 🤔 Is this the lifestyle you've been looking for?",
+      "id": "MSG1769000904044-0.38395757349383675",
+      "timestamp": "2026-01-21T13:08:24.044Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "no i need a mabati house",
+      "id": "MSG1769000918914-0.7864769618714196",
+      "timestamp": "2026-01-21T13:08:38.914Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Mabati houses are a popular choice in Kenya, especially for those looking for an affordable and cozy home 🏠.\n\nHere are some options for mabati houses:\n\n[PROPERTY: MAB-VIL-001]\n 🏡 Mabati Villa in Ngand'o\n 💰 KES 25,000\n 3 Bedrooms, Murram Floor\n\n[PROPERTY: MAB-HSE-002]\n 🏡 Mabati House in Kariobangi\n 💰 KES 30,000\n 4 Bedrooms, Corrugated Iron Sheets\n\n[PROPERTY: MAB-COT-003]\n 🏡 Mabati Cottage in Kasarani\n 💰 KES 20,000\n 2 Bedrooms, Simple Design\n\nWould you like to:\n\n1. View more photos\n2. Schedule a viewing\n3. Get more details about the house\n\nOr would you like me to suggest similar properties?",
+      "id": "MSG1769000920035-0.08857032549230026",
+      "timestamp": "2026-01-21T13:08:40.035Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "in hururma",
+      "id": "MSG1769000942326-0.21986006558806936",
+      "timestamp": "2026-01-21T13:09:02.326Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Huruma! 🏠\n\nI've got some options for mabati houses in Huruma:\n\n[PROPERTY: HRM-MAB-001]\n 🏡 Mabati House in Huruma\n 💰 KES 25,000\n 3 Bedrooms, Murram Floor\n\n[PROPERTY: HRM-COT-002]\n 🏡 Mabati Cottage in Huruma\n 💰 KES 18,000\n 2 Bedrooms, Simple Design\n\nWould you like to:\n\n1. View more photos\n2. Schedule a viewing\n3. Get more details about the house\n\nOr would you like me to suggest similar properties in Huruma? 🤔\n\nLet me know!",
+      "id": "MSG1769000943891-0.4321941693857809",
+      "timestamp": "2026-01-21T13:09:03.891Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "similar",
+      "id": "MSG1769000960625-0.716563695869239",
+      "timestamp": "2026-01-21T13:09:20.625Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Here are similar mabati houses in Huruma:\n\n[PROPERTY: HRM-MAB-003]\n 🏡 3BR Mabati House in Huruma\n 💰 KES 28,000\n 3 Bedrooms, Iron Sheets\n\n[PROPERTY: HRM-MAB-004]\n 🏡 4BR Mabati House in Huruma\n 💰 KES 35,000\n 4 Bedrooms, Murram Floor\n\n[PROPERTY: HRM-COT-005]\n 🏡 2BR Mabati Cottage in Huruma\n 💰 KES 20,000\n 2 Bedrooms, Simple Design\n\nWould you like to:\n\n1. View more photos\n2. Schedule a viewing\n3. Get more details about the house\n\nOr would you like me to expand your search to nearby areas?",
+      "id": "MSG1769000962715-0.2020600117232576",
+      "timestamp": "2026-01-21T13:09:22.715Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "images",
+      "id": "MSG1769000972851-0.28638274199889713",
+      "timestamp": "2026-01-21T13:09:32.851Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Here are the images of the mabati houses in Huruma:\n\n\n[PROPERTY: HRM-MAB-003]\n 🏡 3BR Mabati House in Huruma\n 💰 KES 28,000\n [Image 1: Exterior](https://example.com/hrm-mab-003-exterior.jpg)\n [Image 2: Interior](https://example.com/hrm-mab-003-interior.jpg)\n\n[PROPERTY: HRM-MAB-004]\n 🏡 4BR Mabati House in Huruma\n 💰 KES 35,000\n [Image 1: Exterior](https://example.com/hrm-mab-004-exterior.jpg)\n [Image 2: Interior](https://example.com/hrm-mab-004-interior.jpg)\n\n[PROPERTY: HRM-COT-005]\n 🏡 2BR Mabati Cottage in Huruma\n 💰 KES 20,000\n [Image 1: Exterior](https://example.com/hrm-cot-005-exterior.jpg)\n [Image 2: Interior](https://example.com/hrm-cot-005-interior.jpg)\n\nWould you like to:\n\n1. Schedule a viewing\n2. Get more details about the house\n3. Compare features\n\nLet me know!",
+      "id": "MSG1769000974185-0.9242690646879506",
+      "timestamp": "2026-01-21T13:09:34.185Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "no real images show me the other houses",
+      "id": "MSG1769000994428-0.9934950502892201",
+      "timestamp": "2026-01-21T13:09:54.428Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Here are some more mabati houses in Huruma:\n\n\n[PROPERTY: HRM-MAB-006]\n 🏡 3BR Mabati House in Huruma\n 💰 KES 30,000\n 3 Bedrooms, Murram Floor, Iron Sheets\n\n[PROPERTY: HRM-MAB-007]\n 🏡 4BR Mabati House in Huruma\n 💰 KES 40,000\n 4 Bedrooms, Large Compound\n\n[PROPERTY: HRM-COT-008]\n 🏡 2BR Mabati Cottage in Huruma\n 💰 KES 22,000\n 2 Bedrooms, Simple Design, Shared Toilet\n\nLet me know if you'd like to:\n\n1. View more photos\n2. Schedule a viewing\n3. Get more details about the house\n\nOr would you like me to suggest similar properties in Huruma?",
+      "id": "MSG1769000995838-0.49834528949477264",
+      "timestamp": "2026-01-21T13:09:55.838Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "in kilimani",
+      "id": "MSG1769001003594-0.9379950836718951",
+      "timestamp": "2026-01-21T13:10:03.594Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "Kilimani! 🏠\n\nHere are some mabati houses in Kilimani:\n\n\n[PROPERTY: KIL-MAB-001]\n 🏡 3BR Mabati House in Kilimani\n 💰 KES 35,000\n 3 Bedrooms, Murram Floor\n\n[PROPERTY: KIL-MAB-002]\n 🏡 4BR Mabati House in Kilimani\n 💰 KES 45,000\n 4 Bedrooms, Large Compound\n\n[PROPERTY: KIL-COT-003]\n 🏡 2BR Mabati Cottage in Kilimani\n 💰 KES 25,000\n 2 Bedrooms, Simple Design\n\nWould you like to:\n\n1. View more photos\n2. Schedule a viewing\n3. Get more details about the house\n\nOr would you like me to suggest similar properties in Kilimani?",
+      "id": "MSG1769001004561-0.01977438234522033",
+      "timestamp": "2026-01-21T13:10:04.561Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "not mabati lol",
+      "id": "MSG1769001015110-0.6577660279813038",
+      "timestamp": "2026-01-21T13:10:15.110Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "😂 Okay, no mabati houses then! 🏠\n\nLet's look for other types of houses in Kilimani. What's your budget?\n\n1. Under KES 20,000\n2. KES 20,000 - KES 50,000\n3. KES 50,000 - KES 100,000\n4. Above KES 100,000\n\nAnd what's your preferred type of house?\n\n1. Apartment\n2. Townhouse\n3. Standalone house\n\nLet me know, and I'll show you some options!",
+      "id": "MSG1769001016480-0.2610424681321242",
+      "timestamp": "2026-01-21T13:10:16.481Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "thank you",
+      "id": "MSG1769001028784-0.47375578618184755",
+      "timestamp": "2026-01-21T13:10:28.784Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "You're welcome! 😊 It was a pleasure helping you. If you need any more assistance or have questions in the future, feel free to reach out. Have a great day and good luck finding your dream home! 🏠💕",
+      "id": "MSG1769001029901-0.018096046370440266",
+      "timestamp": "2026-01-21T13:10:29.901Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "who are you",
+      "id": "MSG1769001034312-0.015261057094674735",
+      "timestamp": "2026-01-21T13:10:34.312Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "I'm Zuri, your friendly real estate consultant from Nyumba AI 🤗. I'm here to help you find your dream home, answer your questions, and provide expert advice on all things real estate 🏠💕. How can I assist you today?",
+      "id": "MSG1769001034992-0.5030790890776373",
+      "timestamp": "2026-01-21T13:10:34.992Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "ye",
+      "id": "MSG1769001127162-0.20048015813733921",
+      "timestamp": "2026-01-21T13:12:07.162Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "You're welcome! 😊 If you need anything or have questions in the future, feel free to reach out. Have a great day!",
+      "id": "MSG1769001127799-0.23905670755038533",
+      "timestamp": "2026-01-21T13:12:07.799Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "who are you",
+      "id": "MSG1769001135798-0.9442308965853234",
+      "timestamp": "2026-01-21T13:12:15.798Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "I'm Zuri, a top-tier Real Estate Consultant from Nyumba AI 🏠💕. I'm here to help you find your dream home, answer questions & provide expert advice on real estate.",
+      "id": "MSG1769001136429-0.5530730789134515",
+      "timestamp": "2026-01-21T13:12:16.429Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "user",
+      "text": "okay",
+      "id": "MSG1769001147811-0.8074718353335042",
+      "timestamp": "2026-01-21T13:12:27.811Z"
+    },
+    {
+      "userId": "Don",
+      "sender": "assistant",
+      "text": "😊 Okay, it was great chatting with you! If you need anything or have questions in the future, feel free to reach out. Have a great day and good luck with your home search! 🏠💕",
+      "id": "MSG1769001148467-0.6135887521441425",
+      "timestamp": "2026-01-21T13:12:28.467Z"
     }
   ]
 }

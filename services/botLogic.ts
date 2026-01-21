@@ -37,6 +37,15 @@ export const handleBotMessage = async (bot: TelegramBot, msg: TelegramBot.Messag
         const imagesToSend: { url: string; caption: string }[] = [];
         const propertiesToSend: string[] = [];
 
+        // 0. Post-processing: Remove accidental markdown symbols (formatting cleanup)
+        // Remove bold/italic markers (*, **, _, __)
+        cleanText = cleanText.replace(/(\*\*|__)(.*?)\1/g, '$2'); // Bold
+        cleanText = cleanText.replace(/(\*|_)(.*?)\1/g, '$2');   // Italic
+        // Remove headers (#)
+        cleanText = cleanText.replace(/^#+\s*/gm, '');
+        // Remove markdown links [Text](URL) -> Text
+        cleanText = cleanText.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1');
+
         // 1. Extract Images: ![alt](url)
         const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g;
         let imgMatch;
