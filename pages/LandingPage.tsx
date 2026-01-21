@@ -52,10 +52,10 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
             variants={stagger}
             className="space-y-8"
           >
-            <motion.h1 variants={fadeInUp} className="text-6xl md:text-7xl font-bold leading-[1.1] tracking-tight">
+            <motion.h1 variants={fadeInUp} className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight">
               Discover Fresh <br />
               Visions of Your <br />
-              Ideal Perfect <span className="inline-flex items-center justify-center w-16 h-16 bg-black text-white rounded-full ml-2 -rotate-12"><ArrowUpRight size={32} /></span> Home
+              Ideal Perfect <span className="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-black text-white rounded-full ml-2 -rotate-12"><ArrowUpRight size={28} className="md:w-8 md:h-8" /></span> Home
             </motion.h1>
 
             <motion.p variants={fadeInUp} className="text-lg text-gray-500 max-w-md leading-relaxed">
